@@ -6,9 +6,9 @@ const Header = () => {
         <div >
             <nav className='headerStyle'>
                 <NavLink className='navLinkDesign' to='/home'>Home</NavLink>
-                <NavLink className='navLinkDesign' to='/about'>About Us</NavLink>
+                <NavLink className='navLinkDesign' to='/about'>About us</NavLink>
                 <NavLink className='navLinkDesign' to='/services'>Services</NavLink>
-                <NavLink className='navLinkDesign' to='/contact'>Contact</NavLink>
+                <NavLink className='navLinkDesign' to='/contact'>Contact us</NavLink>
             </nav>
         </div>
     );

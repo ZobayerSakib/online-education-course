@@ -1,0 +1,17 @@
+.container-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+} 
+.contact-title{
+    width: 200px;
+    border-bottom: 3px solid #23085A;
+    margin: 12px;
+
+}
+.covid-alert{
+    background-color: aliceblue;
+    padding:12px;
+    border-radius: 7px;
+    margin-right: 12px;
+    
+}
