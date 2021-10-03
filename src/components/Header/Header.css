@@ -1,0 +1,16 @@
+.headerStyle {
+    background-color:#23085A ;
+    padding:40px;
+}
+.navLinkDesign{
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.navLinkDesign:hover{
+    background-color: white;
+    color:#23085A;
+    border-radius: 15px;
+    padding: 12px;
+}
