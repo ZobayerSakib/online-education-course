@@ -13,7 +13,7 @@ const Contact = () => {
                 </p>
             </div>
             <div className='contact-aside'>
-                <h1 className='contact-title'>Contact us</h1>
+                <h2 className='contact-title'>Contact us</h2>
                 <p>We are here to answer any query you have about the English Care Academy in Bangladesh. You can call us, send us a message any day in working time.
                     <br />
                     <br />
@@ -24,7 +24,7 @@ const Contact = () => {
 
                 </p>
                 <br />
-                <h3>How to Contact with us</h3>
+                <h4>How to Contact with us</h4>
                 <p>You can contact with us to follow some standard way</p>
                 <ul>
                     <li>By calling us on + 88 09372353273 (Saturday to Thursday, 08.30 to 18.00)
