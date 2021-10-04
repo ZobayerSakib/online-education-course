@@ -6,8 +6,8 @@ const Service = (props) => {
         <div className='container ' >
             <img width="250px" height="200px" className='img-controller' src={image} alt="" />
             <div className='mt-3 mb-3'>
-                <h4>{serviceName}</h4>
-                <h5>Course Fee:{fee}</h5>
+                <h5>{serviceName}</h5>
+                <h6>Course Fee:{fee}</h6>
             </div>
         </div>
 

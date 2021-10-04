@@ -7,3 +7,18 @@
 .about-title{
     color:#e2136e;
 }
+/* ------------------Student shoice box design -------------------------------
+-------------------------------------------------------------------------------*/
+.student-choice-box{
+    display: grid;
+    grid-template-columns:repeat(2,1fr)
+}
+.special-tips{
+    border-left:12px solid #e2136e ;
+    padding-left: 12px;
+    box-shadow: -1px 0px 2px #e2136e;
+    border-radius: 5px;
+}
+.special-tips li{
+list-style: lower-greek;
+}

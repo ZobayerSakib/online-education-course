@@ -11,9 +11,21 @@ const About = () => {
                 In 2017, Enaglish Care Academy was ranked as the 23rd Online English educational institution in the annual list of Fortune Magazine's 'Teach the World in 2017' among the top 50 Online education centre to make cahnge based on students issues. <span title='English Care Academy'>ECA</span> has been recognized as the Best Teaching platform of Bangladesh for the second time (2019 and 2020) . English Care Academy has also been selected as the No. 1 Online Education platform for the fourth time in a row in the MFS category.
             </p>
             <br />
-            <h4>Why Students choice us?</h4>
-            <p> Although , It is an Online platform but our teaching systems and our guidelines help students very much. Their appreciate favor us to develop our teaching quality and we just think about students priority</p>
+            <div className='student-choice-box'>
+                <div>
+                    <h5>Why Students choice us?</h5>
+                    <p> Although , It is an Online platform but our teaching systems and our guidelines help students very much. Their appreciate favor us to develop our teaching quality and we just think about students priority</p>
 
+                </div>
+                <div className='special-tips'>
+                    <h5>Toka Special Tips</h5>
+                    <ul>
+                        <li>Secret team creation for better output</li>
+                        <li>Discipline, Reading invironment</li>
+                        <li>Honesty with Task</li>
+                    </ul>
+                </div>
+            </div>
 
 
         </div>
