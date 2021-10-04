@@ -15,3 +15,9 @@
     border-radius: 10px;
     padding: 12px;
 }
+.nav-active{
+    background-color: white;
+    color:#23085A;
+    border-radius: 10px;
+    padding: 12px;
+}

@@ -1,20 +1,25 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Button, Carousel } from 'react-bootstrap';
 import Service from '../Service/Service';
 import slider1 from '../../images/student-1.jpg'
 import slider2 from '../../images/student-4.jpeg'
 import slider3 from '../../images/student-3.jpg'
 import './Home.css'
+import { useHistory } from 'react-router';
 const Home = () => {
+    let history = useHistory();
     const [services, setServices] = useState([]);
+
     useEffect(() => {
         fetch('./homeServices.JSON')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
-
+    const contactBtnHandler = () => {
+        history.push('/contact')
+    }
     return (
 
         <>
@@ -26,6 +31,7 @@ const Home = () => {
                         <br />
                         English Care academy always with to develop your English Skills and know the World.
                     </p>
+                    <Button onClick={contactBtnHandler} className='contactBtn'>Contact Us</Button>
                 </div>
                 <div className="home-container-slider">
                     <Carousel fade>
@@ -72,8 +78,11 @@ const Home = () => {
                 </div>
             </div>
 
-
+            <div className='course-outline' >
+                <h2>Course Outline</h2>
+            </div>
             <div className='serviceDiv mt-5'>
+
                 {
                     services.map(service => <Service
                         key={service.id}

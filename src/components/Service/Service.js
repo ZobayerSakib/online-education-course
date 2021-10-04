@@ -10,6 +10,7 @@ const Service = (props) => {
                 <h5>Course Fee:{fee}</h5>
             </div>
         </div>
+
     );
 };
 

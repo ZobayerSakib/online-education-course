@@ -4,11 +4,21 @@
 
 }
 .home-container-textBox{
-    /* background-color: blanchedalmond; */
     padding:20px;
+}
+.course-outline{
+    width: 250px;
+    border-bottom: 3px solid #23085A;
+    margin-left: 16px;
 }
 .serviceDiv{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     text-align: center;
+}
+.contactBtn{
+    background-color:#23085A ;
+    width:300px;
+    font-weight: 700;
+    padding:10px;
 }

@@ -3,3 +3,14 @@
     grid-template-columns: repeat(3,1fr);
     text-align: center;
 }
+.work-header{
+    margin-top: 20px;
+    width: 60%;
+    margin: auto;
+}
+.work-header h1{
+    text-align: center;
+}
+.work-header p{
+    opacity: .7;
+}

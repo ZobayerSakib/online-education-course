@@ -4,10 +4,19 @@
     color:white;
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    text-align: left;
     
 }
 .footer-about,.footer-partner,.footer-teach,.footer-contact{
     margin:7px;
     padding: 10px;
-    text-align: center;
+   
+}
+
+.footer-partner a , .footer-teach a{
+    text-decoration: none;
+    color:white;
+}
+.footer-partner a:hover , .footer-teach a:hover{
+    text-decoration: underline;  
 }

@@ -1,0 +1,9 @@
+.error-page-div{
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+}
+.error-page-div h1{
+    font-size: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -14,7 +14,10 @@ const Services = () => {
 
     return (
         <div>
-            <h2>Services</h2>
+            <div className='work-header mt-5 mb-4'>
+                <h1>Our Services</h1>
+                <p className='text-center'>We believe that a single person can make him special one by taking special services in his learning period and we are committed to serve our all services to them who are really interested know the world with great potency, with great learning stytem.</p>
+            </div>
             <div className='singleWorkDesign'>
                 {
                     works.map(work => <Work
