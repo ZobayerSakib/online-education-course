@@ -35,6 +35,8 @@ const Footer = () => {
                 </small></p>
                 <h6>Email:</h6>
                 <p><small>suppot.englishcare@academy.com</small></p>
+                <h6>Fax:</h6>
+                <p><small>+88-023-2194916</small></p>
             </div>
         </div>
     );

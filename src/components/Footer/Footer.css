@@ -1,3 +1,5 @@
+/* -------------------Footer section Design Part -----------------------
+------------------------------------------------------------------------*/
 .footerStyle {
     background-color:#23085A ;
     padding:60px;
@@ -7,6 +9,9 @@
     text-align: left;
     
 }
+
+/*-------- footer-about, footer-partner,footer-teach,footer-contact design section ----
+---------------------------------------------------------------------------------------*/
 .footer-about,.footer-partner,.footer-teach,.footer-contact{
     margin:7px;
     padding: 10px;

@@ -1,3 +1,5 @@
+/*--------------------- Home container section ----------------------
+---------------------------------------------------------------------*/
 .home-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -6,16 +8,25 @@
 .home-container-textBox{
     padding:20px;
 }
+
+/* -----------------------In home course outline section -------------------
+----------------------------------------------------------------------------*/
 .course-outline{
     width: 250px;
     border-bottom: 3px solid #23085A;
     margin-left: 16px;
 }
+
+/* -----------------------In home service div section--------------------------
+------------------------------------------------------------------------------- */
 .serviceDiv{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     text-align: center;
 }
+
+/* ---------------------In home section,Contact button design-----------------------
+------------------------------------------------------------------------------------ */
 .contactBtn{
     background-color:#23085A ;
     width:300px;

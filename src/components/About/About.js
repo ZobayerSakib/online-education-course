@@ -1,7 +1,6 @@
 import React from 'react';
 import './About.css'
 const About = () => {
-
     return (
         <div className='container about-container mt-4'>
             <h2 className='about-title'>English Care Academy Profile</h2>

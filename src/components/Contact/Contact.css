@@ -1,3 +1,5 @@
+/* --------------------------contact section design section-------------
+------------------------------------------------------------------------- */
 .container-box{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -8,10 +10,17 @@
     margin: 12px;
 
 }
-.covid-alert{
+/*---------------- Contact notice section ---------------------
+---------------------------------------------------------------*/
+.notice-alert{
     background-color: aliceblue;
-    padding:12px;
+    padding:18px;
     border-radius: 7px;
     margin-right: 12px;
+    opacity: .8;
     
+}
+/*--------------------- Contact aside part-------------------------- */
+.contact-aside{
+    padding-left: 30px;
 }

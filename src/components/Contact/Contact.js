@@ -4,13 +4,15 @@ import img from '../../images/student-2.jpg'
 const Contact = () => {
     return (
         <div className='container container-box'>
-            <div className='covid-alert mt-3'>
-                <h3>IMPORTANT COVID-19 ALERT</h3>
+            <div className='notice-alert mt-3'>
+                <h4>IMPORTANT NOTICE</h4>
                 <p>At the English Care Academy, the health and safety of all our visitors, staff, partners, and the communities in which we operate, is our top priority. To aid in minimising the spread of Covid-19, public access to our library, cultural centre, and front of office services in Dhaka,Bogura, Cumilla, Chattogram, Rajshahi and Sylhet is currently suspended. We will inform all our valued stakeholders of any changes as soon as they occur.
-
+                    <br />
+                    <br />
+                    Pearson Edexcel has cancelled International GCSE and International AS/A Level exams for the May/June 2021 series. Students will instead receive teacher assessed grades
                 </p>
             </div>
-            <div>
+            <div className='contact-aside'>
                 <h1 className='contact-title'>Contact us</h1>
                 <p>We are here to answer any query you have about the English Care Academy in Bangladesh. You can call us, send us a message any day in working time.
                     <br />
@@ -29,7 +31,7 @@ const Contact = () => {
                     </li>
                     <li>By emailing us at bd.contact@englishcareacademy.org (Subject line: Complaint/Feedback/Appreciation)</li>
                     <br />
-                    <img width="100%" height='300px' src={img} alt="kopal" />
+                    <img width="100%" height='300px' src={img} alt="" />
 
                 </ul>
             </div>
