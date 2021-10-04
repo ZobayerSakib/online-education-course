@@ -1,0 +1,17 @@
+.workDivDesign{
+    background-color: #f8f8f9;
+    /* border:2px solid #e2136e; */
+    box-shadow: -3px 5px 5px #e2136e ;
+    margin:32px;
+    border-radius: 7px;
+}
+.img-style{
+    border-radius: 50%;
+    position: relative;
+    top:-38px;
+    border:2px solid #e2136e; 
+}
+.work-info{
+    position: relative;
+    top: -35px;
+}

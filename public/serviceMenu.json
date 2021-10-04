@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "serviceName": "Basic English",
+        "fee": 3500,
+        "image": "https://images04.military.com/sites/default/files/2021-04/stock-college-student-18.jpg"
+    },
+    {
+        "id": 2,
+        "serviceName": "Vocabulary Special",
+        "fee": 2500,
+        "image": "https://www.swedishmatch.com/globalassets/42721/scaled/1204x798x100x1197x798x3_0/globalassets-swmimages-career-2018_employeestudent.jpg?width=960.75"
+    },
+    {
+        "id": 3,
+        "serviceName": "Reading Guide",
+        "fee": 1500,
+        "image": "https://www.commonsense.org/education/sites/default/files/styles/16_9_medium/public/blog-share/7-ways-to-make-distance-learning-more-equitable-article.png?itok=ki1Ssfnc"
+    },
+    {
+        "id": 4,
+        "serviceName": "College English Guide",
+        "fee": 5000,
+        "image": "https://bcmcollege.ac.in/wp-content/uploads/2018/05/depositphotos_150099004-stock-illustration-design-concept-of-word-english-e1525872244864-450x250.jpg"
+    },
+    {
+        "id": 5,
+        "serviceName": "BCS Advanc English ",
+        "fee": 7000,
+        "image": "https://t3.ftcdn.net/jpg/03/70/42/66/360_F_370426690_Pejt9KxjWTHPklsKwripaxr0iA17zupF.jpg"
+    },
+    {
+        "id": 6,
+        "serviceName": "BCS English Fundamental",
+        "fee": 3000,
+        "image": "https://img.freepik.com/free-vector/doodle-foreign-language-education-course_124507-8507.jpg?size=626&ext=jpg"
+    },
+    {
+        "id": 7,
+        "serviceName": "Job Tactics",
+        "fee": 4000,
+        "image": "https://www.business.com/images/content/5ca/3d31a5a215e8a458b757a/1500-0-"
+    },
+    {
+        "id": 8,
+        "serviceName": "English For Schools",
+        "fee": 2000,
+        "image": "https://www.eslbuzz.com/wp-content/uploads/2017/10/at-the-school-vocabulary.png"
+    }
+]
