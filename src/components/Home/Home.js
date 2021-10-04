@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import Service from '../Service/Service';
 import slider1 from '../../images/student-1.jpg'
-import slider2 from '../../images/student-2.jpg'
+import slider2 from '../../images/student-4.jpeg'
 import slider3 from '../../images/student-3.jpg'
 import './Home.css'
 const Home = () => {
@@ -27,8 +27,12 @@ const Home = () => {
         <>
             <div className='home-container mt-4 mb-4'>
                 <div className="home-container-textBox">
-                    <h2>Faka Jayga Kaj Ase</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias libero sequi eveniet pariatur quisquam voluptatem maiores. Sint voluptatibus quo nobis sit nesciunt id eum aliquid aspernatur natus? Veniam optio repellendus vitae quidem vero eos tempora itaque alias ab temporibus unde at, aspernatur doloremque quam eligendi perspiciatis! Temporibus itaque sed nisi quasi illum quas exercitationem ipsum, nemo inventore quos id optio dolor numquam a suscipit aspernatur earum mollitia. Dolore ab voluptate repudiandae provident dignissimos sapiente, recusandae dolor minima nihil quos nam reiciendis vero est excepturi beatae nulla similique reprehenderit aperiam unde eveniet necessitatibus quas eligendi. Ab aliquam molestias fugiat ullam quidem tenetur, debitis totam aperiam, optio hic ratione, adipisci omnis asperiores. Dicta, sapiente delectus. Cupiditate, iusto itaque dolorum molestias deleniti nesciunt sapiente distinctio, ipsa, iste recusandae facilis eaque id laudantium quod soluta consectetur. Soluta quasi ipsam, atque dolorem repudiandae distinctio consectetur saepe incidunt sint quidem ea at cumque veniam perferendis culpa.</p>
+                    <h2>English Care Academy</h2>
+                    <p>English is the language of our international communication in all areas, such as politics, science, media or art and it is often the language of entertainment as well as socialising. Having a good command of English helps us to have more opportunities in life, first of all, our career.
+
+                        <br />
+                        English Care academy always with to develop your English Skills and know the World.
+                    </p>
                 </div>
                 <div className="home-container-slider">
                     <Carousel fade>
@@ -41,7 +45,7 @@ const Home = () => {
 
                             />
                             <Carousel.Caption>
-                                <h3>What is Learning Method?</h3>
+                                <h2>What is Learning Method?</h2>
                                 <p>Learning is like a Circle. We are surrounding to the it</p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -54,8 +58,8 @@ const Home = () => {
                             />
 
                             <Carousel.Caption>
-                                <h3>Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h2>Communication is a Power</h2>
+                                <p>Communication skill is a strong power nowadays. We are providing authentic skills which will make stronger. </p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -67,8 +71,8 @@ const Home = () => {
                             />
 
                             <Carousel.Caption>
-                                <h3>Third slide label</h3>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <h2>Active Seven Day in a week</h2>
+                                <p>English Care Academy stay with you untill the end time of your learning period.We guide your for better output.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
@@ -76,8 +80,7 @@ const Home = () => {
             </div>
 
 
-
-            <div className='serviceDiv'>
+            <div className='serviceDiv mt-5'>
                 {
                     services.map(service => <Service
                         key={service.id}

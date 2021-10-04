@@ -1,0 +1,10 @@
+.container .img-controller{
+    border-radius: 50%;
+    box-shadow: 3px 4px 4px black;
+}
+.container .img-controller:hover{
+    box-shadow: 5px 7px 9px black;
+    transition:all 1s;
+    transform:scale(1.1);
+
+}

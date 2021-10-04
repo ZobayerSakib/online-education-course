@@ -11,6 +11,7 @@
 .navLinkDesign:hover{
     background-color: white;
     color:#23085A;
-    border-radius: 15px;
+    border-bottom:4px solid #e2136e;
+    border-radius: 10px;
     padding: 12px;
 }

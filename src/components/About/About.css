@@ -1,0 +1,9 @@
+.about-container{
+    border:2px solid lightgrey;
+    border-radius: 3px;
+    padding:12px;
+  
+}
+.about-title{
+    color:#e2136e;
+}
