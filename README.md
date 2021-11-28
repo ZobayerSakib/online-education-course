@@ -1,8 +1,8 @@
 # English Care Academy
 
-This project was designed with [React,React boostrap and so on metarials of coding](https://sad-almeida-5bc27e.netlify.app/).
+This design was for the project of  [English Care Academy](https://sad-almeida-5bc27e.netlify.app/).
 
 ## Objectives of this Assignment
-1.This is a educational website.
-2.In this website, I have used React Js, React Router,React Bootstrap,plain css and so on.Routing part is nuturally beautiful.
-3.The main objective of this assignment is that showing a educational online platform and how much impact can play a website.
+1. This is an educational website.
+2. In this website, I have used React Js, React Router, React Bootstrap, plain CSS, and so on. The routing part is naturally beautiful.
+3. The main objective of this assignment is that show an educational online platform and how much impact can play on a website.
